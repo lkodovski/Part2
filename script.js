@@ -117,3 +117,53 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 checkWinner(scoreDolphins, scoreKoalas);
+*/
+
+// Introduction to Arrays
+
+// const friend1 = "Michael";
+// const friend2 = "Steven";
+// const friend3 = "Peter";
+
+// const friends = ["Michael", "Steven", "Peter"];
+// console.log(friends);
+
+// console.log(friends[0]);
+// console.log(friends[2]);
+
+// friends[2] = "Jay";
+// console.log(friends);
+
+// // Nizata moze da sodrzi i razlicni tipovi na podatoci, promenlivi i drugi nizi
+
+// const firstName = "Jonas";
+// const jonas = [firstName, "Smethman", 2021 - 1982, "Teacher", friends];
+// console.log(jonas);
+
+// Definirajte niza so ime ucenik so elementi: Ime, Prezime, klas i predmeti kade sto
+// predmeti e druga niza so elementi: Makedonski, Matematika i Istorija
+// prikazete ja vo konzola
+// const predmeti = ["Makeodsnki", "Matematika", "Istorija"];
+// const ucenik = ["Milan", "Prangovski", "3-6", predmeti];
+// console.log(ucenik);
+
+// const calcAge = function (birthYear) {
+//   return 2023 - birthYear;
+// };
+
+// const years = [2003, 2001, 2006, 2008];
+
+// const ages = [
+//   calcAge(years[0]),
+//   calcAge(years[1]),
+//   calcAge(years[2]),
+//   calcAge(years[3]),
+// ];
+// console.log(ages);
+
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[2]);
+// const age4 = calcAge(years[3]);
+// const ages1 = [age1, age2, age3, age4];
+// console.log(ages1);
