@@ -238,34 +238,102 @@ GOOD LUCK 😀
 
 // Objects method
 
-const jonas = {
-  firstName: "Jonas",
-  lastName: "Smethman",
-  birthYear: 1991,
-  job: "teacher",
-  friends: ["Michael", "Steven", "Peter"],
-  hasDriverLicense: true,
-  // calcAge: function (birthYear) {
-  //   return 2037 - birthYear;
-  // },
-  // calcAge: function () {
-  //   console.log(this);
-  //   return 2037 - this.birthYear;
-  // },
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Smethman",
+//   birthYear: 1991,
+//   job: "teacher",
+//   friends: ["Michael", "Steven", "Peter"],
+//   hasDriverLicense: true,
+//   // calcAge: function (birthYear) {
+//   //   return 2037 - birthYear;
+//   // },
+//   // calcAge: function () {
+//   //   console.log(this);
+//   //   return 2037 - this.birthYear;
+//   // },
 
-  calcAge: function () {
-    this.age = 2037 - this.birthYear;
-    return this.age;
-  },
-  getSummary: function () {
-    return `${this.firstName} is a ${this.calcAge()} years old`;
-  },
-};
+//   calcAge: function () {
+//     this.age = 2037 - this.birthYear;
+//     return this.age;
+//   },
+//   getSummary: function () {
+//     return `${this.firstName} is a ${this.calcAge()} years old`;
+//   },
+// };
 
-console.log(jonas.calcAge());
-console.log(jonas.age);
-console.log(jonas.age);
-console.log(jonas.age);
-console.log(jonas.age);
+// console.log(jonas.calcAge());
+// console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
 
-console.log(jonas.getSummary());
+// console.log(jonas.getSummary());
+
+//Vezbi test
+
+//Vezbi test
+
+// Zadaca1.
+
+// a.) Definirajte niza koli so elementi: marka, boja, i zemjaProizvodstvo od kade sto e proizvedena kade sto zemjaProizvodstvo e druga niza od tri zemji(odberete gi proizvolno).
+
+// Prikazete ja vo konzola recenicata:
+
+// {Audi} e kola so {bela} i e proizvedena vo {Germanija}
+
+// b.) Dodadete vo nizata zemjaProizvodstvo uste eden zemja na kraj, prikazete ja vo konzola nizata kako i nejzinata dolzina.
+
+// Zadaca2.
+
+// Definirajte object so ime pacient so svojstva: pacientName, pacientId, pacientSection i eden metod so ime patientDetails koj sto gi vrakja detaljite za samiot objekt  vo oblik:
+
+// {Dragan Todorovski} e pacient so id {2356} i e smesten na {interno}
+
+// Prikazete ja vo konzola recenicata:
+
+// povikajte go metodot na objektot pacient.
+
+// const zemjaProizvodstvo = ["Germanija", "Italija", "Francija"];
+// const koli = ["BMW", "Black", zemjaProizvodstvo];
+
+// console.log(
+//   `${koli[0]} e kola so ${koli[1]} boja i e proizvedena vo ${zemjaProizvodstvo[0]}`
+// );
+
+// zemjaProizvodstvo.push("Japan");
+// console.log(zemjaProizvodstvo.length);
+
+// const pacient = {
+//   pacientName: "David",
+//   pacientId: 2356,
+//   pacientSection: ["Hirurgija", "Urologija", "Ginekologija", "Interno"],
+//   pacientDetail: function () {
+//     return `${this.pacientName} e pacient so id ${this.pacientId} i e smesten vo ${this.pacientSection[3]}`;
+//   },
+// };
+// console.log(pacient.pacientDetail());
+
+// 1. Definiraj funkcija brojNaKvardat koja prima kako argument eden broj i koja go presmetuva kvadratot na toj broj
+
+// 2. Definiraj funkcija zbirNaKvadrati koja kje primi tri broj kako argumenti. Presmetaj ja sumata na kvadratite na ovie brojevi so koristenje na funkcija brojNaKvadrat definirana vo 1.
+// Vo konzola treba da ispise:
+
+// Pr: zbirot na broevite $2, $3 i $4 e $29.
+// const brojNaKvadrat = function (broj) {
+//   return broj * broj;
+// };
+
+// const zbirNaKvadrati = function (br1, br2, br3) {
+//   const kvBr1 = brojNaKvadrat(br1);
+//   const kvBr2 = brojNaKvadrat(br2);
+//   const kvBr3 = brojNaKvadrat(br3);
+//   const zbirNaKvadrati = kvBr1 + kvBr2 + kvBr3;
+//   return `Zbirot na kvadratite na broevite ${br1}, ${br2} i ${br3} e ${zbirNaKvadrati}`;
+// };
+
+// console.log(zbirNaKvadrati(2, 3, 4));
+
+// const momentalnaOcena = 3;
+// const posakuvanaOcena = 4;
+// const imaZnaenje = false;
